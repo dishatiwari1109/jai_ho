@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import Harshita from "./components/Harshita";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/ishika" element={<h2>Ishika Page</h2>} />
         <Route path="/jatin" element={<h2>Jatin Page</h2>} />
-        <Route path="/harshita" element={<h2>Harshita Page</h2>} />
+        <Route path="/harshita" element={<Harshita/>} />
         <Route path="/disha" element={<h2>Disha Page</h2>} />
       </Routes>
     </BrowserRouter>
