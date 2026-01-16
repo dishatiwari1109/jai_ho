@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Harshita from "./components/harshita/Harshita";
 import Ishika from "./components/Ishika";
 import Jatin from "./components/jatin/WeatherApi"
+import QuizApp from "./components/Quiz";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route path="/ishika" element={<Ishika />} />
         <Route path="/jatin" element={<Jatin/>} />
         <Route path="/harshita" element={<Harshita />} />
-        <Route path="/disha" element={<h2>Disha Page</h2>} />
+        <Route path="/disha" element={<QuizApp />} />
       </Routes>
     </BrowserRouter>
   );
