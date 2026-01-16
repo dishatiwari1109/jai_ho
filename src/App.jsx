@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Harshita from "./components/Harshita";
+import Harshita from "./components/harshita/Harshita";
 import Ishika from "./components/Ishika";
 import Jatin from "./components/jatin/WeatherApi"
 
