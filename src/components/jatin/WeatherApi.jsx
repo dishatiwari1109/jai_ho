@@ -19,7 +19,7 @@ const WeatherApi = () => {
 
     const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
-    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=50d307810ba528b4ab6a228a78d37682`)
       .then((res) => {
         setWeather(res.data);
         setError("");
